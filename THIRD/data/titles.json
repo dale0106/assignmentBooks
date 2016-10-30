@@ -1,0 +1,11 @@
+{"movies":[
+    {"id": 1, "series":"Star Wars", "episodes":[
+        "The Phantom Menace", "Attack of the Clones", "Revenge of the Sith", "A New Hope", "The Empire Strikes Back", "The Return of the Jedi", "The Force Awakes", "The Lightsabre and the Droid"
+    ]},
+    {"id": 2, "series":"Harry Potter", "episodes":[
+        "The Philosopher Stone", "The Chamber of Secrets", "The Goblet of Fire", "The Order of the Phoenix", "The Half-Blood Prince", "The Deathly Hallows I", "The Deathly Hallows II"
+    ]},
+    {"id": 3, "series":"The Lord of the Rings", "episodes":[
+        "The Fellowship of the Ring", "The Two Towers", "The Return of the King"
+    ]}
+]}

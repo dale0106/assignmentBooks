@@ -1,0 +1,23 @@
+<main>
+    <div class="row">
+
+        <div class="col-xs-6 col-lg-3" ng-repeat="x in categories">
+
+
+            <h2>
+             <!-- the .list will be referenced as home.list in our routing -->
+              <a class="btn btn-default btn-large" ui-sref="home.list({categoryID: x._id})" ui-sref-active="active" role="button">
+                  {{x.title}}
+              </a>
+          </h2>
+
+        </div>
+        <!--/.col-xs-6.col-lg-4-->
+
+    </div>
+    <!--/row-->
+
+    <!-- load lists.html here -->
+    <ui-view></ui-view>
+
+</main>

@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="jumbotron">
+        <h1>List of Books in {{titleName}}</h1>
+
+        <ul class="listview">
+            <!--
+            <li ng-repeat="x in bookTitles track by $index">{{x}} {{$index}}
+            </li>
+-->
+            <li ng-repeat="book in currentBooks">{{book}}</li>
+        </ul>
+    </div>
+</div>
